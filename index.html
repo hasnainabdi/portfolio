@@ -351,6 +351,7 @@
     <section id="contact" class="contact">
         <div class="container">
             <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <p></p>
             <div class="contact-content">
                 <div class="contact-info" data-aos="fade-right">
                     <div class="contact-item">
@@ -457,6 +458,12 @@
             easing: 'ease-in-out',
             once: true
         });
+    </script>
+        <script>
+            document.getElementById("contactForm").addEventListener("submit", function(e) {
+        e.preventDefault(); // Prevent actual form submission
+        alert("This form is not functional at the moment.\nPlease contact us using the provided details.");
+    });
     </script>
 </body>
 </html>
