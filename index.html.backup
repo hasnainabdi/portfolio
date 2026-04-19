@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- SEO Meta Tags -->
+<title>Muhammad Hasnain - Frontend Developer & Digital Marketing Portfolio</title>
+<meta name="description" content="Muhammad Hasnain - Results-driven Software Engineering student specializing in Frontend Development and AI-powered Digital Marketing. Proven expertise in building responsive websites, implementing data-driven strategies, and generating quality leads.">
+<meta name="keywords" content="Muhammad Hasnain, frontend developer, web developer, digital marketing, software engineering, AI-powered marketing, responsive web design, HTML, CSS, JavaScript, SEO, data analysis, visualization, lead generation, AI tools, problem solving, adaptability, Karachi, Pakistan">
+<meta name="author" content="Muhammad Hasnain">
+<meta name="robots" content="index, follow">
+<meta name="language" content="English">
+<meta name="revisit-after" content="7 days">
+
+<!-- Open Graph Meta Tags for Social Media -->
+<meta property="og:title" content="Muhammad Hasnain - Frontend Developer & Digital Marketing Portfolio">
+<meta property="og:description" content="Results-driven Software Engineering student specializing in Frontend Development and AI-powered Digital Marketing with proven expertise in responsive websites and data-driven strategies.">
+<meta property="og:image" content="https://yourwebsite.com/images/profile.jpg">
+<meta property="og:url" content="https://yourwebsite.com">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Muhammad Hasnain Portfolio">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter Card Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Muhammad Hasnain - Frontend Developer & Digital Marketing">
+<meta name="twitter:description" content="Frontend Developer & Digital Marketing Specialist with expertise in AI-powered solutions and responsive web design.">
+<meta name="twitter:image" content="https://yourwebsite.com/images/profile.jpg">
+<meta name="twitter:site" content="@yourusername">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://yourwebsite.com">
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+<!-- Preconnect for Performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Structured Data for Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Muhammad Hasnain",
+  "jobTitle": "Frontend Developer & Digital Marketing Specialist",
+  "description": "Results-driven Software Engineering student specializing in Frontend Development and AI-powered Digital Marketing with proven expertise in building responsive websites and implementing data-driven strategies.",
+  "url": "https://yourwebsite.com",
+  "email": "m.hasnainreactions@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Karachi",
+    "addressCountry": "Pakistan"
+  },
+  "knowsAbout": [
+    "Frontend Development",
+    "Digital Marketing",
+    "AI-Powered Marketing",
+    "Responsive Web Design",
+    "Data Analysis",
+    "SEO Optimization"
+  ],
+  "skills": [
+    "HTML",
+    "CSS", 
+    "JavaScript",
+    "React",
+    "SEO",
+    "Data Analysis",
+    "Visualization",
+    "Digital Marketing",
+    "Lead Generation",
+    "AI Tools",
+    "Problem Solving",
+    "Adaptability"
+  ]
+}
+</script>
+</head>
+
+<body>
+
+<div id="loader"><div class="loader-circle"></div></div>
+<div id="progress"></div>
+<div class="cursor"></div>
+
+<nav>
+<h2>Muhammad Hasnain</h2>
+<ul id="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+<i class="fas fa-bars menu" onclick="toggleMenu()"></i>
+</nav>
+
+<header>
+<div id="particles-js"></div>
+<div class="hero">
+<h1>Muhammad <span class="highlight">Hasnain</span></h1>
+<h2 id="typing"></h2>
+<p>Frontend Developer & Digital Marketing</p>
+<a href="#projects" class="btn">View Work</a>
+</div>
+</header>
+
+<main>
+<section id="about" class="fade">
+<div class="about-content">
+<h2><i class="fas fa-user"></i> About</h2>
+<p>Results-driven Software Engineering student specializing in Frontend Development and AI-powered Digital Marketing. Proven expertise in building responsive websites, implementing data-driven strategies, and generating quality leads. Skilled in leveraging cutting-edge AI tools and technologies to deliver innovative solutions. Passionate about combining technical excellence with marketing acumen to drive business growth and user engagement.</p>
+<a href="#" class="btn" onclick="downloadResume()"><i class="fas fa-download"></i> Download Resume</a>
+</div>
+<div class="about-image">
+<img src="images/profile.jpg" alt="Muhammad Hasnain - Frontend Developer">
+</div>
+</section>
+
+<section class="fade">
+<h2><i class="fas fa-code"></i> Skills</h2>
+<div class="skills">
+<span>Data Analysis</span><span>Visualization</span><span>Digital Marketing</span>
+<span>Lead Generation</span><span>HTML</span><span>CSS</span>
+<span>JavaScript</span><span>SEO</span><span>Excel</span>
+<span>AI Tools</span><span>Problem Solving</span><span>Adaptability</span>
+</div>
+</section>
+
+<section id="projects" class="fade">
+<h2><i class="fas fa-laptop-code"></i> Projects</h2>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Modern responsive UI portfolio.</p>
+<a href="https://github.com" target="_blank" class="project-btn"><i class="fab fa-github"></i> Source</a>
+</div>
+
+<div class="card">
+<h3>Growth App</h3>
+<p>Daily habit tracker.</p>
+<a href="https://github.com" target="_blank" class="project-btn"><i class="fab fa-github"></i> Source</a>
+</div>
+
+</section>
+
+<section id="certifications" class="fade">
+<h2><i class="fas fa-certificate"></i> Certifications</h2>
+<div class="slider-container">
+<div class="slider-wrapper">
+<div class="slide">
+<img src="images/cert1.jpg" alt="Full Stack React Certification - GreatStack">
+<h3>Full Stack React E-Commerce Project</h3>
+<p>GreatStack</p>
+</div>
+<div class="slide">
+<img src="images/cert2.jpg" alt="AI Digital Advertising Certification - Udemy">
+<h3>AI-Powered Digital Advertising</h3>
+<p>Udemy</p>
+</div>
+<div class="slide">
+<img src="images/cert3.jpg" alt="AI Marketer Certification - SEMrush">
+<h3>Become an AI-Powered Marketer</h3>
+<p>SEMrush</p>
+</div>
+<div class="slide">
+<img src="images/cert4.jpg" alt="Generative AI Certification - Microsoft LinkedIn">
+<h3>Career Essentials in Generative AI</h3>
+<p>Microsoft & LinkedIn</p>
+</div>
+</div>
+<button class="slider-prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+<button class="slider-next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+<div class="slider-dots"></div>
+</div>
+</section>
+
+<section id="contact" class="fade">
+<h2><i class="fas fa-envelope"></i> Contact</h2>
+<div class="contact-info">
+<p><i class="fas fa-envelope"></i> m.hasnainreactions@gmail.com</p>
+<p><i class="fas fa-phone"></i> +92 3XX XXXXXXX</p>
+<p><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</p>
+</div>
+</section>
+</main>
+
+<section id="about" class="fade">
+<div class="about-content">
+<h2><i class="fas fa-user"></i> About</h2>
+<p>Results-driven Software Engineering student specializing in Frontend Development and AI-powered Digital Marketing. Proven expertise in building responsive websites, implementing data-driven strategies, and generating quality leads. Skilled in leveraging cutting-edge AI tools and technologies to deliver innovative solutions. Passionate about combining technical excellence with marketing acumen to drive business growth and user engagement.</p>
+<a href="#" class="btn" onclick="downloadResume()"><i class="fas fa-download"></i> Download Resume</a>
+</div>
+<div class="about-image">
+<img src="images/profile.jpg" alt="Muhammad Hasnain">
+</div>
+</section>
+
+<section class="fade">
+<h2><i class="fas fa-code"></i> Skills</h2>
+<div class="skills">
+<span>Data Analysis</span><span>Visualization</span><span>Digital Marketing</span>
+<span>Lead Generation</span><span>HTML</span><span>CSS</span>
+<span>JavaScript</span><span>SEO</span><span>Excel</span>
+<span>AI Tools</span><span>Problem Solving</span><span>Adaptability</span>
+</div>
+</section>
+
+<section id="projects" class="fade">
+<h2><i class="fas fa-laptop-code"></i> Projects</h2>
+
+<div class="card">
+<h3>Portfolio Website</h3>
+<p>Modern responsive UI portfolio.</p>
+<a href="https://github.com" target="_blank" class="project-btn"><i class="fab fa-github"></i> Source</a>
+</div>
+
+<div class="card">
+<h3>Growth App</h3>
+<p>Daily habit tracker.</p>
+<a href="https://github.com" target="_blank" class="project-btn"><i class="fab fa-github"></i> Source</a>
+</div>
+
+</section>
+
+<section id="certifications" class="fade">
+<h2><i class="fas fa-certificate"></i> Certifications</h2>
+<div class="slider-container">
+<div class="slider-wrapper">
+<div class="slide">
+<img src="images/cert1.jpg" alt="Full Stack React Certification">
+<h3>Full Stack React E-Commerce Project</h3>
+<p>GreatStack</p>
+</div>
+<div class="slide">
+<img src="images/cert2.jpg" alt="AI Digital Advertising Certification">
+<h3>AI-Powered Digital Advertising</h3>
+<p>Udemy</p>
+</div>
+<div class="slide">
+<img src="images/cert3.jpg" alt="AI Marketer Certification">
+<h3>Become an AI-Powered Marketer</h3>
+<p>SEMrush</p>
+</div>
+<div class="slide">
+<img src="images/cert4.jpg" alt="Generative AI Certification">
+<h3>Career Essentials in Generative AI</h3>
+<p>Microsoft & LinkedIn</p>
+</div>
+</div>
+<button class="slider-prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+<button class="slider-next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+<div class="slider-dots"></div>
+</div>
+</section>
+
+<section id="contact" class="fade">
+<h2><i class="fas fa-envelope"></i> Contact</h2>
+<div class="contact-info">
+<p><i class="fas fa-envelope"></i> m.hasnainreactions@gmail.com</p>
+<p><i class="fas fa-phone"></i> +92 3XX XXXXXXX</p>
+<p><i class="fas fa-map-marker-alt"></i> Karachi, Pakistan</p>
+</div>
+</section>
+
+<footer>
+<div class="footer-content">
+<div class="social-links">
+<a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+<a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+<a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+<p>&copy; 2026 Muhammad Hasnain. All rights reserved.</p>
+</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
